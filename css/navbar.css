@@ -1,0 +1,45 @@
+body {
+    margin: 0px;    
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 85px;    
+    display: flex;/*Nos sirve para poder ocupar el espacio superior del body*/    
+    background-color: #084887;
+}
+
+.header__menu{
+    width: 100%; 
+    font-size: 14px;
+    
+}
+
+.header ul{
+    display: flex; 
+    justify-content: space-evenly;   
+    list-style: none;
+}
+
+.header ul > li{
+    margin-left: 90px;
+    margin-right: 90px;    
+}
+
+.header ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__menu > ul > li > .menu__elemento--imagen{
+    border-top: 0px;
+    height: 70px;
+}
+
+.header ul > li > a:hover{
+    text-decoration: underline;
+}
+
+
+

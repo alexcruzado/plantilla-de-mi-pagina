@@ -1,0 +1,43 @@
+body {
+    margin: 0px;    
+    font-family: 'Poppins', sans-serif;
+    background-color: #f58a07;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.main p{
+    width: 80%;
+    text-align: justify;
+}
+
+.main > .main__about__text{    
+    height: 400px;
+    width: 800px;
+    margin-left: 150px;
+}
+
+/*Contenedor de la imagen*/
+.main >.main__about__img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px; 
+    margin-right: 180px;
+    width: 250px;
+    height: 400px;
+}
+
+.main >.main__about__img > img{          
+    height: 250px;
+    width: 400px;
+    border-radius: 120px 120px 120px 120px;
+}
+
+
+
+
+
